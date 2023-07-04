@@ -1,0 +1,10 @@
+[
+  "tests.py::TestBooksCollector::test_add_book_in_favorites",
+  "tests.py::TestBooksCollector::test_add_new_book_add_two_books",
+  "tests.py::TestBooksCollector::test_delete_book_from_favorites",
+  "tests.py::TestBooksCollector::test_get_books_with_specific_rating_5",
+  "tests.py::TestBooksCollector::test_get_list_of_favorites_books",
+  "tests.py::TestBooksCollector::test_set_book_rating_check_book_rating",
+  "tests.py::TestBooksCollector::test_set_book_rating_check_book_rating_above_the_border",
+  "tests.py::TestBooksCollector::test_set_book_rating_check_book_rating_below_the_border"
+]
