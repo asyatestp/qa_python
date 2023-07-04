@@ -1,3 +1,4 @@
 {
-  "tests.py": true
+  "tests.py": true,
+  "tests.py::TestBooksCollector": true
 }

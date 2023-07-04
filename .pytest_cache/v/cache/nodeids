@@ -6,5 +6,8 @@
   "tests.py::TestBooksCollector::test_get_list_of_favorites_books",
   "tests.py::TestBooksCollector::test_set_book_rating_check_book_rating",
   "tests.py::TestBooksCollector::test_set_book_rating_check_book_rating_above_the_border",
-  "tests.py::TestBooksCollector::test_set_book_rating_check_book_rating_below_the_border"
+  "tests.py::TestBooksCollector::test_set_book_rating_check_book_rating_below_the_border",
+  "tests.py::TestBooksCollector::test_set_book_rating_check_book_rating_below_the_border[-1]",
+  "tests.py::TestBooksCollector::test_set_book_rating_check_book_rating_below_the_border[0]",
+  "tests.py::TestBooksCollector::test_set_book_rating_check_book_rating_below_the_border[11]"
 ]

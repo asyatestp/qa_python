@@ -1,4 +1,5 @@
 from main import BooksCollector
+import pytest
 
 # класс TestBooksCollector объединяет набор тестов, которыми мы покрываем наше приложение BooksCollector
 # обязательно указывать префикс Test
@@ -29,16 +30,19 @@ class TestBooksCollector:
         collector.add_new_book('Гордость и предубеждение и зомби')
         collector.add_new_book('Гордость и предубеждение и зомби')
         assert len(collector.get_books_rating()) == 1
+
+
     def test_set_book_rating_check_book_rating_5(self):
         collector = BooksCollector()
         collector.add_new_book('Гордость и предубеждение и зомби')
         collector.set_book_rating('Гордость и предубеждение и зомби', 5)
         assert collector.get_book_rating('Гордость и предубеждение и зомби') == 5
 
-    def test_set_book_rating_check_book_rating_below_the_border(self):
+    @pytest.mark.parametrize('rating', ['-1', '0', '11'])
+    def test_set_book_rating_check_book_rating_below_the_border(self, rating):
         collector = BooksCollector()
         collector.add_new_book('Гордость и предубеждение и зомби')
-        collector.set_book_rating('Гордость и предубеждение и зомби', 0)
+        collector.set_book_rating('Гордость и предубеждение и зомби', rating)
         assert collector.get_book_rating('Гордость и предубеждение и зомби') == 1
 
     def test_set_book_rating_check_book_rating_above_the_border(self):
