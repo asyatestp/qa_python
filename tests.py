@@ -39,6 +39,7 @@ class TestBooksCollector:
         assert collector.get_book_rating('Гордость и предубеждение и зомби') == 5
 
     @pytest.mark.parametrize('rating', ['-1', '0', '11'])
+
     def test_set_book_rating_check_book_rating_below_the_border(self, rating):
         collector = BooksCollector()
         collector.add_new_book('Гордость и предубеждение и зомби')
