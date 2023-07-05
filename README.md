@@ -2,9 +2,8 @@
 
     def test_add_new_book_add_two_books(self) - добавлени 2 новых книг
     def test_add_new_book_add_two_books_doubles(self) - проверка на дубли
-    def test_set_book_rating_check_book_rating_5(self) - проверка на устанвку рейтинга
-    def test_set_book_rating_check_book_rating_below_the_border(self) - проверка на число ниже установленной границы
-    def test_set_book_rating_check_book_rating_above_the_border(self) - проверка на число выше установленной границы
+    def test_set_book_rating_check_book_rating_5(self) - проверка на установку рейтинга
+     def test_set_book_rating_check_book_rating_boundary_values - проверка граничных значений
     def test_get_books_with_specific_rating_5(self): - проверка на вывод книги с определенным рейтингом
     def test_add_book_in_favorites(self) - проверка на добавление книги в избранное
     def test_delete_book_from_favorites(self) - проверка на удаление книги из избранного
