@@ -10,7 +10,7 @@
 .idea/**/shelf
 
 .idea/
-.pytest_cache/
+.pytest_cache/v
 .DS_Store
 
 # AWS User-specific
