@@ -1,0 +1,6 @@
+# Created by pytest automatically.
+.idea/
+.pytest_cache/
+.pytest_cache/v
+.pytest_cache/CACHEDIR.TAG
+.pytest_cache/README.md
